@@ -797,6 +797,15 @@ img {
 .modal-field {
   margin-bottom: 10px;
 }
+/* .checkbox {
+  margin-bottom: 0;
+} */
+.check-link {
+  margin-bottom: 0;
+}
+/* .modal-field :not(:last-child) {
+  margin-bottom: 10px;
+} */
 .input-icon {
   position: absolute;
   left: 12px;
@@ -827,6 +836,12 @@ img {
 }
 .chekarea {
   margin-bottom: 20px;
+}
+.modal-field + .area {
+  margin-bottom: 0;
+}
+.modal-field + .check {
+  margin-bottom: 0;
 }
 .modal-close {
   display: flex;
@@ -859,6 +874,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 0;
 }
 
 .check-text::before {
