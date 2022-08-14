@@ -797,15 +797,11 @@ img {
 .modal-field {
   margin-bottom: 10px;
 }
-/* .checkbox {
-  margin-bottom: 0;
-} */
+
 .check-link {
   margin-bottom: 0;
 }
-/* .modal-field :not(:last-child) {
-  margin-bottom: 10px;
-} */
+
 .input-icon {
   position: absolute;
   left: 12px;
@@ -834,11 +830,9 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
 }
-.chekarea {
-  margin-bottom: 20px;
-}
+
 .modal-field + .area {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .modal-field + .check {
   margin-bottom: 0;
